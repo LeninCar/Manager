@@ -24,6 +24,21 @@
   color: white;
 }
 
+.App-button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+}
+
+
 .App-link {
   color: #61dafb;
 }
