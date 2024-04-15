@@ -6,16 +6,21 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>Gestor de Proyectos</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          ¡Bienvenido al Gestor de Proyectos! Empieza a organizar tus tareas y proyectos de manera eficiente.
         </p>
+        <div className="button-container">
+          <button className="App-button">Crea tu proyecto</button>
+          <button className="App-button">Únete</button>
+        </div>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/LeninCar/pruebagestor"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Nuestro repo
         </a>
       </header>
     </div>
@@ -23,3 +28,4 @@ function App() {
 }
 
 export default App;
+
